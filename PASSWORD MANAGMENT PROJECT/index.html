@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Tester</h1>
+        <p>Ensure your password contains:</p>
+        <ul>
+            <li>At least 12 characters</li>
+            <li>Upper and lowercase letters</li>
+            <li>Numbers</li>
+            <li>Special characters (@, $, %, etc.)</li>
+        </ul>
+        <input type="text" id="password" placeholder="Enter Password">
+        <button onclick="checkStrength()">Check Strength</button>
+        <button onclick="generatePassword()">Generate Strong Password</button>
+        <p id="result"></p>
+        <p id="generated-password"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
